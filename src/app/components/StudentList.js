@@ -41,7 +41,7 @@ export default function StudentList({ students, onRemoveStudent }) {
   );
 }
 
-// Style definitions (same as before)
+
 
   // Styles
   const containerStyle = {
