@@ -1,4 +1,3 @@
-
 // app/components/StudentList.js
 
 import Image from 'next/image';
@@ -41,70 +40,71 @@ export default function StudentList({ students, onRemoveStudent }) {
   );
 }
 
+// Styles
+const containerStyle = {
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+  marginTop: "1.5rem",
+  marginBottom: "2rem",
+};
 
+const titleStyle = {
+  marginBottom: "1rem",
+  fontWeight: "bold",
+  fontSize: "1.8rem",
+  color: "#000080",
+  textDecoration: "underline",
+  display: "flex",
+  alignItems: "center",
+  gap: "0.5rem",
+  backgroundColor: "#ffffff", // White background
+  padding: "0.5rem 1rem",     // Padding around text and images
+  borderRadius: "8px",        // Optional: rounded corners for better look
+  boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)" // Optional: slight shadow for elevation
+};
 
-  // Styles
-  const containerStyle = {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    marginTop: "1.5rem",
-    marginBottom: "2rem",
-  };
-  
-  const titleStyle = {
-    marginBottom: "1rem",
-    fontWeight: "bold",
-    fontSize: "1.8rem",
-    color: "#000080",
-    textDecoration: "underline",
-    display: "flex",
-    alignItems: "center",
-    gap: "0.5rem",
-  };
-  
-  const iconStyle = {
-    width: "50px", 
-    height: "50px", 
-  };
-  
-  const tableStyle = {
-    width: "80%",
-    maxWidth: "600px",
-    borderCollapse: "collapse",
-    textAlign: "center",
-    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-    marginTop: "1rem",
-  };
-  
-  const tableHeaderStyle = {
-    padding: "0.75rem",
-    backgroundColor: "#000080",
-    color: "#fff",
-    fontWeight: "bold",
-  };
-  
-  const tableRowEvenStyle = {
-    backgroundColor: "#f9f9f9",
-  };
-  
-  const tableRowOddStyle = {
-    backgroundColor: "#fff",
-  };
-  
-  const tableCellStyle = {
-    padding: "0.75rem",
-    borderBottom: "1px solid #e0e0e0",
-    color: "#333",
-  };
-  
-  const removeButtonStyle = {
-    padding: "0.25rem 0.5rem",
-    backgroundColor: "#000080",
-    color: "#fff",
-    border: "none",
-    borderRadius: "4px",
-    cursor: "pointer",
-    fontSize: "0.9rem",
-  };
-  
+const iconStyle = {
+  width: "50px", 
+  height: "50px", 
+};
+
+const tableStyle = {
+  width: "80%",
+  maxWidth: "600px",
+  borderCollapse: "collapse",
+  textAlign: "center",
+  boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+  marginTop: "1rem",
+};
+
+const tableHeaderStyle = {
+  padding: "0.75rem",
+  backgroundColor: "#000080",
+  color: "#fff",
+  fontWeight: "bold",
+};
+
+const tableRowEvenStyle = {
+  backgroundColor: "#f9f9f9",
+};
+
+const tableRowOddStyle = {
+  backgroundColor: "#fff",
+};
+
+const tableCellStyle = {
+  padding: "0.75rem",
+  borderBottom: "1px solid #e0e0e0",
+  color: "#333",
+};
+
+const removeButtonStyle = {
+  padding: "0.25rem 0.5rem",
+  backgroundColor: "#000080",
+  color: "#fff",
+  border: "none",
+  borderRadius: "4px",
+  cursor: "pointer",
+  fontSize: "0.9rem",
+};
