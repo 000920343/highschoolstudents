@@ -7,9 +7,9 @@ export default function StudentList({ students, onRemoveStudent }) {
   return (
     <div style={containerStyle}>
       <h2 style={titleStyle}>
-        <Image src="/th.jpg" alt="Icon" width={24} height={24} /> 
+        <Image src="/4ibok7a6T.png" alt="Icon" width={24} height={24} /> 
         Student List
-        <Image src="/th.jpg" alt="Icon" width={24} height={24} /> 
+        <Image src="/4ibok7a6T.png" alt="Icon" width={24} height={24} /> 
       </h2>
       <table style={tableStyle}>
         <thead>
